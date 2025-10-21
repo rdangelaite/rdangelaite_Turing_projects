@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "calculator-rasadangelaite"
+version = "0.1.5"
+description = "simple calculator with a memory"
+authors = ["rasa dangelaite <skysmile7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "calculator_rasadangelaite"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hypothesis = "^6.81.2"
+
+[[tool.poetry.source]]
+name = "foo"
+url = "https://pypi.example.org/simple/"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
